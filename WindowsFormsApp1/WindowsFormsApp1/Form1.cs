@@ -15,6 +15,17 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            label1.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Visible = false;
         }
     }
 }
